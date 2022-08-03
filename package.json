@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajith-ab/react-native-voip-call.git"
+    "url": "git+https://github.com/mcjambi/react-native-voIP-call-2.git"
   },
   "author": "Ajith A B",
   "maintainers": [
@@ -19,9 +19,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/react-native-webrtc/react-native-voip-call/issues"
+    "url": "https://github.com/mcjambi/react-native-voip-call-2/issues"
   },
-  "homepage": "https://github.com/ajith-ab/react-native-voip-call/blob/master/README.md",
+  "homepage": "https://github.com/mcjambi/react-native-voip-call-2/blob/master/README.md",
   "keywords": [
     "react-native",
     "android",

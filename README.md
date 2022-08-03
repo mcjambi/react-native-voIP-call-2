@@ -1,6 +1,8 @@
 
 # react-native-voip-call
 
+- base on https://github.com/ajith-ab/react-native-voip-call/ but i add typescript and fixed some bug! Please see https://github.com/ajith-ab/react-native-voip-call/
+
 ## Getting started
 ### Npm
 ```bash
@@ -35,7 +37,7 @@ Link required libraries
 #### `import this package as your needed places`
 
 ```javascript
-  import RNVoipCall  from 'react-native-voip-call';
+  import RNVoipCall  from 'react-native-voip-call-2';
 ```
 
 ### 1. initialize Call (IOS Required)
