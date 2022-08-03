@@ -1,23 +1,24 @@
 
 # react-native-voip-call
 
-- base on https://github.com/ajith-ab/react-native-voip-call/ but i add typescript and fixed some bug! Please see https://github.com/ajith-ab/react-native-voip-call/
+Base on https://github.com/ajith-ab/react-native-voip-call/ but i add typescript and fixed some bug! Please see https://github.com/ajith-ab/react-native-voip-call/
+
 
 ## Getting started
 ### Npm
 ```bash
-$ npm install react-native-voip-call --save
+$ npm install react-native-voip-call-2 --save
 ```
 
 ### Yarn
 ```bash
-$ yarn add react-native-voip-call
+$ yarn add react-native-voip-call-2
 ```
 
 
 ### Mostly automatic installation RN < 0.60.x
 
-`$ react-native link react-native-voip-call`
+`$ react-native link react-native-voip-call-2`
 
 
 ### ios Installation
@@ -305,7 +306,7 @@ import {
   Platform,
   Button
 } from 'react-native';
-import RNVoipCall, { RNVoipPushKit } from 'react-native-voip-call';
+import  { RNVoipCallNativeModule, RNVoipPushKitNativeModule: RNVoipPushKit } from 'react-native-voip-call-2';
 
 const IsIos = Platform.OS === 'ios';
 
@@ -381,7 +382,7 @@ Add the below code to `index.js` in Root folder
 ```javascript
 
 import messaging from '@react-native-firebase/messaging';
-import RNVoipCall from 'react-native-voip-call';
+import {RNVoipCallNativeModule: RNVoipCall} from 'react-native-voip-call-2';
 
 messaging().setBackgroundMessageHandler(async remoteMessage => {
   console.log('Message handled in the background!', remoteMessage);
@@ -441,12 +442,6 @@ messaging().setBackgroundMessageHandler(async remoteMessage => {
 ios | Android  | android( Lockscreen)
 --- | --- | ---
 <img height="500" src="https://raw.githubusercontent.com/ajith-ab/react-native-voip-call/master/doc/ios1.jpeg" style="max-width:100%;"> | <img height="500" src="https://raw.githubusercontent.com/ajith-ab/react-native-voip-call/master/doc/android-1.jpeg" style="max-width:100%;"> | <img height="500" src="https://raw.githubusercontent.com/ajith-ab/react-native-voip-call/master/doc/android-2.jpeg" style="max-width:100%;">
-
-
-### Donate
-
-<p><a href="https://www.paypal.me/ajithab" rel="nofollow"><img height="75" src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" style="max-width:100%;"></a></p>
-
 
 ### Author
 [Ajith A B](https://www.linkedin.com/in/ajith-a-b-a61303197)
