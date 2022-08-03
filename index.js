@@ -2,11 +2,9 @@
 
 import { NativeModules, DeviceEventEmitter, Platform } from 'react-native';
 
-export * as RNVoipPushKitNativeModule from './lib/iosPushKit';
-export * as RNVoipCallNativeModule from './lib/RNVoipCall';
+import  RNVoipPushKitNativeModule_module from './lib/iosPushKit';
+import  RNVoipCallNativeModule_module from './lib/RNVoipCall';
 
-
-
-
-
+export const RNVoipPushKitNativeModule = RNVoipPushKitNativeModule_module
+export const RNVoipCallNativeModule = RNVoipCallNativeModule_module
 

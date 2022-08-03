@@ -1,1 +1,1 @@
-declare module "react-native-voip-call"
+declare module "react-native-voip-call-2"
